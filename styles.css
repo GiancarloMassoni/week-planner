@@ -52,3 +52,9 @@ button {
 .white-back {
   background: white;
 }
+
+.row.positioned {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+}
