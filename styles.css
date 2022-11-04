@@ -1,0 +1,26 @@
+.row {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.height {
+  height: 200px;
+}
+
+.entry-btn {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+
+.col-full h1 {
+  font-weight: 100;
+}
