@@ -83,3 +83,12 @@ button {
 .hidden {
   display: none;
 }
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.col-one-seventh button {
+  height: 50px;
+  width: 90px;
+}

@@ -8,6 +8,7 @@ $entryBtn.addEventListener('click', addEntry);
 $form.addEventListener('submit', submitEntry);
 
 function submitEntry(event) {
+
   event.preventDefault();
   $overlay.className = 'overlay positioned hidden';
 
@@ -18,6 +19,8 @@ function submitEntry(event) {
     entryId: data.nextId
   };
   data.nextId++;
+  data.entries = entryData;
+  $form.reset();
 }
 
 function addEntry(event) {
