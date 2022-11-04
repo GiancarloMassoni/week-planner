@@ -60,6 +60,7 @@ button {
   transform: translate(-50%, -15%);
   background-color: white;
   width: 600px;
+  padding: 30px;
 }
 
 .overlay-drop {
@@ -73,4 +74,12 @@ button {
   margin-left: 0.5rem;
   margin-bottom: 1rem;
   resize: none;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.hidden {
+  display: none;
 }
