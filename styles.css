@@ -53,8 +53,11 @@ button {
   background: white;
 }
 
-.row.positioned {
+.small-container.positioned {
   position: absolute;
   top: 15%;
-  left: 40%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+  background-color: white;
+  width: 400px;
 }
