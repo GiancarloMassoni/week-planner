@@ -9,6 +9,14 @@ $form.addEventListener('submit', submitEntry);
 function submitEntry(event) {
   event.preventDefault();
   $overlay.className = 'overlay positioned hidden';
+
+  var entryData = {
+    dayOfTheWeek: $form.elements.dayOfTheWeek.value,
+    time: $form.elements.time.value,
+    description: $form.elements.description.value,
+    entryId: data.nextId
+  };
+  data.nextId++;
 }
 
 function addEntry(event) {
