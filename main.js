@@ -1,3 +1,4 @@
+/* global data */
 var $form = document.querySelector('form');
 var $overlay = document.querySelector('.overlay');
 var $entryBtn = document.querySelector('.entry-btn');
